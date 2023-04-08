@@ -1,4 +1,4 @@
-# Web Development Project 6 - *Name of App Here*
+# Web Development Project 6 - *Beer APP*
 
 Submitted by: **Abdulmujeeb Lawal**
 
