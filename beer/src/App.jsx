@@ -41,7 +41,7 @@ export default function App() {
 
 
   return (
-    <div className=''>
+    <div className='flex flex-col justify-center items-center'>
 
       <div className="flex gap-3 mb-2">
         <h1>Brewery Data: Click to filter </h1>
