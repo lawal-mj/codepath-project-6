@@ -41,20 +41,18 @@ export default function App() {
 
 
   return (
-    <div className="App">
+    <div className=''>
 
-      <div>
-        <h1>Brewery Data: CLick to filter </h1>
-        <button onClick={filterLarge}> Lat greater than 40 Only</button>
-        <br />
-        <button onClick={filterSmall}> Lat smaller than 40 Only</button>
-        <br />
-        <button onClick={resetFilter}> All </button>
+      <div className="flex gap-3 mb-2">
+        <h1>Brewery Data: Click to filter </h1>
+        <button className='bg-blue-300 p-2 rounded-lg' onClick={filterLarge}> Lat greater than 40 Only</button>
+        <button className='bg-blue-300 p-2 rounded-lg' onClick={filterSmall}> Lat smaller than 40 Only</button>
+        <button className='bg-blue-300 p-2 rounded-lg' onClick={resetFilter}> All </button>
       </div>
 
       <div>
         {filteredData.map(item => (
-            <Itemview name={item.name} type={item.brewery_type} state={item.state} id={item.id} />
+          <Itemview name={item.name} type={item.brewery_type} state={item.state} id={item.id} />
         ))
         }
 
