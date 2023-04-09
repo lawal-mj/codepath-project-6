@@ -16,12 +16,12 @@ export default function Detailpage(){
     }
 
     return (
-        <>
+        <div className="flex flex-col bg-red-100 gap-3 text-xl font-bold">
             <h1> {brewery.name}</h1>
             <h1> State: {brewery.state} </h1>
             <h1>Phone: {brewery.phone} </h1>
             <h1>Postal Code: {brewery.postal_code}</h1>
-        </>
+        </div>
     );
   };
   

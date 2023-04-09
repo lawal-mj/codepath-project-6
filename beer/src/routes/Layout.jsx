@@ -4,7 +4,7 @@ export default function Layout() {
   return (
     <div>
 
-          <p>
+          <p className="text-xl font-bold text-blue-500 text-center">
             <Link to="/"> Go home </Link>
           </p>
 
